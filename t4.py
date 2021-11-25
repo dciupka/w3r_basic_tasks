@@ -7,4 +7,3 @@ r = float(input("r: "))
 print(f'r = {r}')
 print(f'Area = {(math.pi*r**2)}')
 
-print('x')
