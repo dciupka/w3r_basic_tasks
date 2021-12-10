@@ -7,3 +7,6 @@ def LongestWord(sen):
 
 # keep this function call here
 print(LongestWord('To największe slowo i wyd!!!!!!!e%*#'))
+
+diction =('dls','fls')
+print(hash(diction))
