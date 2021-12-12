@@ -8,8 +8,18 @@ empty_dic['names']=['dawod','mariola','mikolaj','rena']
 print(empty_dic)
 
 tablica_pomiarowa=dict()
+
 for pomiar in range(10):
     tablica_pomiarowa[f'pomiar {pomiar}']=random.random()
+
+
 print(tablica_pomiarowa)
 print(tablica_pomiarowa['pomiar 2'])
 print(len(tablica_pomiarowa))
+
+new_dict=dict()
+new_dict["name"]="dawid"
+for i in range(2):
+    new_dict[i]=i
+
+print(new_dict)
